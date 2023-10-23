@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial;
+    background: #bdb9b9;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+h2 {
+    text-decoration: underline;
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+
+.heart-image {
+    filter: drop-shadow(0.5rem 0.5rem 0.5rem #111);
+}
